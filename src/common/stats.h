@@ -72,7 +72,7 @@ float Quantile(Context const* ctx, double alpha, Iter const& begin, Iter const& 
  * \brief Calculate the weighted quantile with step function. Unlike the unweighted
  *        version, no interpolation is used.
  *
- *   See https://aakinshin.net/posts/weighted-quantiles/ for some discussions on computing
+ *   See Andrey Akinshin (2023) "Weighted quantile estimators" arXiv:2304.07265 [stat.ME] for some discussions on computing
  *   weighted quantile with interpolation.
  */
 template <typename Iter, typename WeightIter>
